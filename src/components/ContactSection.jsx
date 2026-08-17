@@ -172,24 +172,6 @@ const ContactSection = () => {
 
                     </div>
 
-                    <a
-                        href="mailto:your-email@gmail.com"
-                        className="
-              mt-5
-              font-mono
-              text-[10px]
-              tracking-wider
-              text-gray-700
-                text-center
-              transition-colors
-              duration-300
-
-              hover:text-purple-400
-            "
-                    >
-                        ngolam2k04@gmail.com
-                    </a>
-
                 </div>
 
                 <div
