@@ -22,13 +22,14 @@ export const projects = [
       'Cloudinary',
       "JWT"
     ],
-    isLiveDemo: false
+    isLiveDemo: false,
+    github: 'https://github.com/LamThanh2k04/Movie_App'
   },
 
   {
     id: 2,
     number: "02",
-    title: "Academic Management System",
+    title: "Acadex - Academic Management System",
     category: "Backend",
     image: imageProjectManagerStudent,
     description:
@@ -42,13 +43,14 @@ export const projects = [
       "VNPay",
       "JWT"
     ],
-    isLiveDemo: false
+    isLiveDemo: false,
+    github: 'https://github.com/LamThanh2k04/Movie_App'
   },
 
   {
     id: 3,
     number: "03",
-    title: "Multi-store Reward Points System (Zalo Mini App)",
+    title: "Point Hub - Multi-store Reward Points System (Zalo Mini App)",
     category: "Backend",
     image: imagePointHub,
     description:
@@ -60,13 +62,14 @@ export const projects = [
       'Cloudinary',
       "JWT"
     ],
-    isLiveDemo: false
+    isLiveDemo: false,
+    github: "https://github.com/LamThanh2k04/ZaloMiniApp"
   },
 
   {
     id: 4,
     number: "04",
-    title: "Hotel Booking",
+    title: "B5ooking - Hotel Booking",
     category: "Backend",
     image: imageHotelBooking,
     description:
@@ -80,6 +83,7 @@ export const projects = [
       "Cron",
       "Stripe"
     ],
-    isLiveDemo: false
+    isLiveDemo: false,
+    github: "https://github.com/LamThanh2k04/B5ooking"
   },
 ];
