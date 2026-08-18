@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const Header = () => {
   const navItems = [
@@ -23,10 +23,14 @@ const Header = () => {
       href: "#contact",
     },
   ];
+  const [loaded, setLoaded] = useState(false);
+  useEffect(() => {
+    setLoaded(true)
+  }, 200)
 
   return (
     <header
-      className="
+      className={`
         fixed
         left-0
         right-0
@@ -36,7 +40,14 @@ const Header = () => {
         border-white/[0.06]
         bg-[#11071F]/80
         backdrop-blur-xl
-      "
+        transition-all
+        duration-700
+        ease-out
+        ${loaded
+          ? "translate-y-0 opacity-100"
+          : "translate-y-4 opacity-0"
+        }
+      `}
     >
       <div
         className="
