@@ -44,7 +44,7 @@ export const projects = [
       "JWT"
     ],
     isLiveDemo: false,
-    github: 'https://github.com/LamThanh2k04/Movie_App'
+    github: 'https://github.com/LamThanh2k04/Acadex_Manager'
   },
 
   {
