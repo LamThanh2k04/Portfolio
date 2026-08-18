@@ -11,7 +11,8 @@ const ProjectCard = ({ project }) => {
       className="
         relative
         w-[500px]
-        h-[500px]
+        h-full
+        pb-2
         shrink-0
         overflow-hidden
         rounded-2xl
